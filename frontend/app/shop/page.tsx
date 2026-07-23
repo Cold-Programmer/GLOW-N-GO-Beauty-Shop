@@ -6,7 +6,7 @@ import Link from "next/link";
 import AddToCartButton from "@/components/AddToCartButton";
 import { Product } from "@/lib/data";
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+const API = process.env.NEXT_PUBLIC_API_URL || "https://glow-n-go-beauty-shop-1.onrender.com";
 const GENDERS = ["ALL", "MEN", "WOMEN", "UNISEX", "KIDS"] as const;
 
 interface ApiProduct {
