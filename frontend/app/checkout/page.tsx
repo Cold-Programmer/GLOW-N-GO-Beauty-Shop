@@ -5,7 +5,7 @@ import { useCart } from "@/lib/cart-context";
 import PaymentConfirmedModal from "@/components/PaymentConfirmedModal";
 
 type PayState = "idle" | "sending" | "waiting" | "success" | "failed";
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+const API = process.env.NEXT_PUBLIC_API_URL || "https://glow-n-go-beauty-shop-1.onrender.com";
 const POLL_INTERVAL_MS = 4000;
 const POLL_TIMEOUT_MS = 2 * 60 * 1000;
 
