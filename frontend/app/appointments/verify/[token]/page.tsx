@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+const API = process.env.NEXT_PUBLIC_API_URL || "https://glow-n-go-beauty-shop-1.onrender.com";
 
 interface AppointmentDetail {
   id: string;
